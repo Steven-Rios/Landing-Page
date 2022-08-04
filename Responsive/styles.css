@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #1f2937;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+.container {
+    border: 2px solid magenta;
+    /*  */
+    margin: 0 auto;
+}
+
+
+.headerContainer {
+    display: flex;
+    padding: 1em 9em;
+    justify-content: space-between;
+}
+
+.headerContainer a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.headerRight a {
+    padding-left: 1em;
+    font-size: 18px;
+}
+
+.headerLeft a {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.heroContainer {
+    display: flex;
+    background-color: #1f2937;
+    padding: 3em 8em;
+}
+
+
+.heroText h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0 auto;
+}
+
+.heroText p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-right: 2em;
+}
+
+.heroText button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 10px 38px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.infoContainer {
+    margin-bottom: 6em;
+}
+
+.infoContainer h1 {
+    text-align: center;
+    margin: 1.5em;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info img {
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+.info p {
+    padding: 0px 8px;
+    text-align: center;
+}
+
+.infoimg {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em 0;
+}
+
+
+.quote p {
+    font-size: 36px;
+    font-family: italic;
+    text-align: left;
+    width: 50%;
+}
+
+.quote .quoteText {
+    margin-bottom: 0px;
+    color: black;
+}
+
+
+.quote .copyright {
+    margin: 0px;
+    text-align: end;
+    font-weight: bold;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5em; */
+    /* margin-bottom: 5em; */
+    margin: 5em auto;
+    width: 900px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+
+}
+
+.contentText {
+    width: 600px;
+    /* padding: 2em; */
+}
+
+.contentText h1, p {
+    margin: 0;
+}
+
+.content button {
+    /* height: 40px; */
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 35px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.contentText {
+    color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    color: #E5E7EB;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
